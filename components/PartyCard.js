@@ -29,7 +29,7 @@ export class PartyCard extends React.Component {
             <Text transparent> {this.props.party.ticketsSold} vendidos</Text>
           </Left>
           <Right>
-            <Button onPress={() => navigation.navigate('PartyDetail', { idParty: this.props.party.id })}>
+            <Button onPress={() => navigation.navigate('PartyDetail', { id: this.props.party.id })}>
               <Text>Comprar</Text>
             </Button>
           </Right>

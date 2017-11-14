@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Expo from 'expo';
-import { PartyTicketsApp } from './routes'
+import { RootNavigator } from './routes'
 
 
 export default class App extends React.Component {
@@ -24,6 +24,6 @@ export default class App extends React.Component {
       return <Expo.AppLoading />;
     }
 
-    return <PartyTicketsApp />;
+    return <RootNavigator />;
   }
 }

@@ -10,10 +10,10 @@ export class PartiesScreen extends React.Component {
     this.state = { parties: [] };
   }
 
-  componentWillMount() {
+  componentDidMount() {
     this.getParties()
     .then(data => {
-      this.state.parties = data;
+      this.setState({parties: data});
     })
   }
 
