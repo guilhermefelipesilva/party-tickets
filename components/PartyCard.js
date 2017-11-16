@@ -3,7 +3,7 @@ import { Image } from 'react-native';
 import { Container, Header, Content, Card, CardItem, Thumbnail, Button, Text, Icon, Left, Body, Right } from 'native-base';
 
 export class PartyCard extends React.Component {
-
+  
   constructor(props) {
     super(props);
   }
@@ -29,7 +29,7 @@ export class PartyCard extends React.Component {
             <Text transparent> {this.props.party.ticketsSold} vendidos</Text>
           </Left>
           <Right>
-            <Button onPress={() => navigation.navigate('PartyDetail', { id: this.props.party.id })}>
+            <Button onPress={() => navigation.navigate('PartyDetail', { party: this.props.party })}>
               <Text>Comprar</Text>
             </Button>
           </Right>

@@ -12,9 +12,9 @@ export class PartiesScreen extends React.Component {
 
   componentDidMount() {
     this.getParties()
-    .then(data => {
-      this.setState({parties: data});
-    })
+      .then(data => {
+        this.setState({ parties: data });
+      })
   }
 
   static navigationOptions = {
@@ -22,7 +22,6 @@ export class PartiesScreen extends React.Component {
   };
 
   render() {
-    console.log(this.state)
     return (
       <Container>
         <Content>
