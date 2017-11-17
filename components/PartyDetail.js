@@ -62,7 +62,6 @@ export class PartyDetailScreen extends React.Component {
                         </Text>
                     </View>
                 </Carousel>
-
             </Container>
 
         );
