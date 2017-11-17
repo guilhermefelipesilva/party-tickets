@@ -5,6 +5,7 @@
   "devDependencies": {
     "react-native-scripts": "1.5.0",
     "jest-expo": "^21.0.2",
+    "react-devtools": "^3.0.0",
     "react-test-renderer": "16.0.0-alpha.12"
   },
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
@@ -25,6 +26,7 @@
     "native-base": "^2.3.3",
     "react": "16.0.0-alpha.12",
     "react-native": "^0.48.4",
-    "react-navigation": "^1.0.0-beta.19"
+    "react-navigation": "^1.0.0-beta.19",
+    "simple-carousel-react-native": "^1.0.2"
   }
 }
